@@ -1,0 +1,18 @@
+.image {
+    margin-top: 10px;
+    width: 270px;
+}
+
+.cards {
+    width: 270px;
+    height: 320px;
+    margin: 30px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+
+.name {
+    background-color: orange;
+    color: white;
+    padding: 10px;
+}

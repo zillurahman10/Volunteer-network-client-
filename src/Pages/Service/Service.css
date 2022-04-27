@@ -5,14 +5,15 @@
 
 .cards {
     width: 270px;
-    height: 320px;
-    margin: 30px;
-    margin-bottom: 30px;
-    border-radius: 10px;
+    height: 300px;
+    margin: 50px;
+    margin-bottom: 100px;
+    border-radius: 100px;
 }
 
 .name {
     background-color: orange;
     color: white;
     padding: 10px;
+    border-radius: 10px;
 }

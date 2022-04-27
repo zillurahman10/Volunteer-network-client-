@@ -6,11 +6,11 @@ import RequireAuth from './RequireAuth';
 import Register from './Pages/Register/Register';
 import Header from './Shared/Header/Header';
 import EventTasks from './Pages/EventTasks/EventTasks';
+import AddEvent from './Pages/AddEvent/AddEvent';
 
 function App() {
   return (
     <div className="App">
-      <Header></Header>
       <Routes>
         <Route path='/' element={<Services></Services>}></Route>
         <Route path='/login' element={<Login></Login>}></Route>
@@ -20,6 +20,11 @@ function App() {
         <Route path='/eventtasks/:id' element=
           {<RequireAuth>
             <EventTasks></EventTasks>
+          </RequireAuth>}>
+        </Route>
+        <Route path='/addEvent' element=
+          {<RequireAuth>
+            <AddEvent></AddEvent>
           </RequireAuth>}>
         </Route>
       </Routes>

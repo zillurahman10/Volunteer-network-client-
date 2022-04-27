@@ -1,0 +1,40 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 100px;
+}
+
+.signOut {
+    border: 2px solid skyblue;
+    cursor: pointer;
+    background-color: #3F90FC;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+.admin {
+    border: 2px solid black;
+    cursor: pointer;
+    background-color: #434141;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 10px;
+}
+
+.userPhoto {
+    width: 30px;
+    margin-left: 10px;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    margin-right: 25px;
+}
+
+.links {
+    margin-top: 15px;
+}

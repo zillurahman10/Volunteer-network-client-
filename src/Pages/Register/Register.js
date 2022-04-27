@@ -1,5 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
+import Header from '../../Shared/Header/Header';
 
 const Register = () => {
     const navigate = useNavigate()
@@ -23,10 +24,11 @@ const Register = () => {
             .then(data => {
                 console.log('success', data);
             })
-        navigate('/eventtasks')
+        navigate(`/eventtasks/1`)
     }
     return (
         <div>
+            <Header></Header>
             <h2 className='text-center' >Register as a Volunteer</h2>
             <form onSubmit={handleSubmit} className='w-50 mx-auto'>
                 <input type="text" name='name' placeholder='Full Name' required />

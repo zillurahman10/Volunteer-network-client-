@@ -1,21 +1,20 @@
-.container {
-    margin: 80px;
-    width: 400px;
-    padding: 30px;
+.add-event {
     display: flex;
     justify-content: space-between;
-    box-shadow: 0.1px 0.1px 5px;
+    margin-top: 100px;
+    margin-left: 300px;
+    margin-right: 300px;
+    box-shadow: 1px 1px 5px;
+    padding: 50px;
 }
 
-.cancel-button {
+.submit {
+    margin-left: 1150px;
     border: 2px solid skyblue;
     cursor: pointer;
     background-color: #3F90FC;
     color: white;
     padding: 10px 20px;
     border-radius: 10px;
-}
-
-.text {
-    margin-right: 30px;
+    margin-top: 10px;
 }

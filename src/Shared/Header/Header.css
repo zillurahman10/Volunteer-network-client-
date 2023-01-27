@@ -38,3 +38,8 @@
 .links {
     margin-top: 15px;
 }
+.logo{
+    width: 100px;
+    margin-top: 20px;
+    border-radius: 10px;
+}

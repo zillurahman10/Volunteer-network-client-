@@ -1,11 +1,11 @@
 import React from 'react';
 
-const Register = () => {
+const Banner = () => {
     return (
         <div>
-            Register
+            This is Banner
         </div>
     );
 };
 
-export default Register;
+export default Banner;

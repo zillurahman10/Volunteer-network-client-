@@ -1,0 +1,32 @@
+.email{
+    padding: 10px 70px;
+    /* background-color: #D3D3D3; */
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.password{
+    padding: 10px 70px;
+    /* background-color: #D3D3D3; */
+    border-radius: 10px;
+}
+.login-full-form{
+    display: flex;
+    margin: 50px;
+    justify-content: center;
+    justify-content: space-between;
+    margin: 0 250px;
+    align-items: center;
+}
+.login-button{
+    padding: 10px 130px;
+    margin-top: 20px;
+    border-radius: 5px;
+    background-color: lightblue;
+}
+.google-button{
+    padding: 5px 68px;
+    margin-top: 20px;
+    border-radius: 5px;
+    background-color: lightblue;
+    display: flex;
+}

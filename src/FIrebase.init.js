@@ -2,12 +2,13 @@
 import { initializeApp } from "firebase/app";
 import { getAuth } from "firebase/auth"
 const firebaseConfig = {
-    apiKey: "AIzaSyBCQ0XuxmCDIfIxhKBN68FzCF9O3cdduoM",
-    authDomain: "volunteer-network-b53c6.firebaseapp.com",
-    projectId: "volunteer-network-b53c6",
-    storageBucket: "volunteer-network-b53c6.appspot.com",
-    messagingSenderId: "490264439454",
-    appId: "1:490264439454:web:c5b82b4bd38be1e4bd698f"
+    apiKey: "AIzaSyC_S_FqWvGVabXUEo0y58z_447krHEjdF0",
+  authDomain: "mrihistory.firebaseapp.com",
+  projectId: "mrihistory",
+  storageBucket: "mrihistory.appspot.com",
+  messagingSenderId: "523362963073",
+  appId: "1:523362963073:web:40284baf01e25a15460780",
+  measurementId: "G-6E3M7CHHZX"
 };
 
 // Initialize Firebase

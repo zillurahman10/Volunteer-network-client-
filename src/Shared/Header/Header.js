@@ -9,6 +9,7 @@ import logo from '../../assets/Free_Sample_By_Wix.jpeg'
 const Header = () => {
     const [user, loading, error] = useAuthState(auth);
     const logOut = () => {
+        alert('Are you sure to Sign Out?')
         signOut(auth)
     }
     return (
@@ -23,7 +24,12 @@ const Header = () => {
                     <Link className='link' to='/eventtasks/1'>Events</Link>
                     <Link className='link' to='/blog'>Blog</Link>
                     <Link className='link' to='/addevent'>Add Event</Link>
-                    <Link className='link' to="/login">join Us</Link>
+                    {user ? <div class="dropdown">
+  <label tabindex="0" class="btn m-1">{user?.displayName}</label>
+  <ul tabindex="0" class="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-52">
+    <li><button onClick={()=>logOut()} className='font-bold'>Sign Out</button></li>
+  </ul>
+</div> :<Link className='link' to="/login">Join Us</Link>}
                 </div>
             </div>
         </div>

@@ -1,0 +1,10 @@
+.contact-img {
+    object-fit: cover;
+    animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+    50% {
+        transform: translateY(-50px);
+    }
+}

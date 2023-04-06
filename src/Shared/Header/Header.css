@@ -1,7 +1,7 @@
 .header {
     display: flex;
     justify-content: space-between;
-    margin: 0 100px;
+    margin: 10px 100px;
 }
 
 .signOut {
@@ -38,8 +38,8 @@
 .links {
     margin-top: 15px;
 }
-.logo{
-    width: 100px;
-    margin-top: 20px;
+
+.logo {
+    width: 50px;
     border-radius: 10px;
 }
